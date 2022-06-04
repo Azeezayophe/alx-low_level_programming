@@ -6,10 +6,9 @@
  * greater than or less than 5, or is zero..
 (*
  *Return: 0 on success
- *
  */
 int main(void)
-nt n;
+int n;
 char last[] = "Last digit of";
 srand(time(0));
 n = rand() - RAND_MAX / 2;
