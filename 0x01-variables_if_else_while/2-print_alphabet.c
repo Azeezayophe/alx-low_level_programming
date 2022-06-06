@@ -8,10 +8,11 @@
 */
 int main(void)
 {
-  char alp;
-  for (alp = "a" ; alp <= "z" ; alp++)
-    {
-      
-    }
-  return (0);
+char alp;
+for ( alp = 97 ; alp <= 122 ; alp++)
+{
+putchar(alp);
+}
+putchar('\n');
+return (0);
 }
