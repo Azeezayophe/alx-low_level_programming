@@ -9,7 +9,7 @@
 int main(void)
 {
 int alp;
-for (alp = 122 ; alp <= 97 ; alp--)
+for (alp = 122 ; alp >= 97 ; alp--)
 {
 putchar(alp);
 }
