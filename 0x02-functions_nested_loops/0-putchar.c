@@ -1,16 +1,12 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-/*
- * _putchar - 0-putchar
+#include "main.h"
+/**
+ * main - Entry point
  *
- * Main Entry point
- *
- * Return Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-printf("_putchar\n");
+_putchar("_putchar\n");
 
 return (0);
 }
