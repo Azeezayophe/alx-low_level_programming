@@ -2,12 +2,13 @@
 #include<stdlib.h>
 #include<time.h>
 /*
- * Main Entry point
- * 
+ * _putchar - 0-putchar
+ *
  * Return Always 0 (success)
  */
 int main(void)
 {
 printf("_putchar\n");
-return 0;
+
+return (0);
 }
