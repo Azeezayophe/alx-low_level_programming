@@ -8,14 +8,14 @@
  *
  * Return: 0
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 int m, l, sum = 0;
-for (m = 0 ; m < argc ; m++)
+for (m = 1 ; m < argc ; m++)
 {
 for (l = 0 ; argv[m][l] != '\0' ; l++)
 {
-if (isdigit(argv[m][l]))
+if (!isdigit(argv[m][l]))
 {
 printf("Error\n");
 return (1);
