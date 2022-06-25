@@ -1,33 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
-* main - function to print out the change that needs to given
-* @argc: number of arguments to be passed
-* @argv: number of variables to calculate
-* Return: always 0 for sucess
-*/
+ * main - adding positive integer
+ * @argc: arguments count
+ * @argv: arguments line
+ *
+ * Return: 0
+ */
 int main(int argc, char **argv)
 {
-int total, change;
-if (argc < 2)
+int m, l, sum = 0;
+for (m = 0 ; m < argc ; m++)
+{
+for (l = 0 ; argv[m][l] != '\0' ; l++)
+{
+if (isdigit(argv[m][l]))
 {
 printf("Error\n");
 return (1);
 }
-change = atoi(argv[1]);
-for (total = 0; change > 0; total++)
-{
-if (change - 25 >= 0)
-change = change - 25;
-else if (change - 10 >= 0)
-change = change - 10;
-else if (change - 5 >= 0)
-change = change - 5;
-else if (change - 2 >= 0)
-change = change - 2;
-else if (change - 1 >= 0)
-change = change - 1;
 }
-printf("%d\n", total);
+sum += atoi(argv[m]);
+}
+printf("%d\n", sum);
 return (0);
 }
