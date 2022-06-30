@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,6 +9,21 @@
  * @size: the size of the memory to print
  * Return: Nothing.
  */
+=======
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+
+
+/**
+* simple_print_buffer - prints buffer in hexa
+* @buffer: the address of memory to print
+* @size: the size of the memory to print
+* Return: Nothing.
+*/
+>>>>>>> 225880c632745aab98e31204bd5fa19b6bc7760e
 void simple_print_buffer(char *buffer, unsigned int size)
 {
 unsigned int i;
@@ -27,11 +43,18 @@ i++;
 }
 printf("\n");
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 225880c632745aab98e31204bd5fa19b6bc7760e
 /**
 * main - check the code for ALX School students.
 * Return: Always 0.
 */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 225880c632745aab98e31204bd5fa19b6bc7760e
 int main(void)
 {
 char *buffer;
