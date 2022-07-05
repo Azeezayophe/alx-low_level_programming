@@ -42,5 +42,5 @@ return (NULL);
 }
 for (k = 0; k <= j; k++)
 doge->owner[k] = owner[k];
-return (doge);
+return (NULL);
 }
